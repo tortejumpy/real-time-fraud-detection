@@ -1,3 +1,8 @@
+import os
+os.environ["STREAMLIT_SERVER_HEADLESS"] = "true"
+os.environ["STREAMLIT_SERVER_ADDRESS"] = "0.0.0.0"
+os.environ["STREAMLIT_SERVER_PORT"] = "10000"
+
 import streamlit as st
 import pandas as pd
 import numpy as np
