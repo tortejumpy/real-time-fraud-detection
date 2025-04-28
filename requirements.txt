@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow        # (for Autoencoders later, deep learning part)
+keras             # (for Autoencoders later)
+imbalanced-learn  # (to handle imbalance if needed)
+streamlit
+
